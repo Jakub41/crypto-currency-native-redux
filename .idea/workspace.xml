@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f1698c-ffe1-4f87-ac5c-8d6f920a6920" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Utils/ActionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actions/FetchCoinData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/FetchCoinData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducers/CryptoReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducers/CryptoReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,26 +21,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="17" />
+          <entry key="js" value="18" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JavaScript" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1467" />
+          <entry key="js" value="1702" />
           <entry key="json" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="22" />
-          <entry key="JavaScript" value="1467" />
+          <entry key="JavaScript" value="1702" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
@@ -51,20 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/ActionTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Actions/FetchCoinData.js">
+        <entry file="file://$PROJECT_DIR$/src/Reducers/CryptoReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+            <state relative-caret-position="736">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -86,7 +76,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/Store.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/Reducers/CryptoReducer.js" />
         <option value="$PROJECT_DIR$/src/Reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/index.js" />
         <option value="$PROJECT_DIR$/src/components/CryptoContainer.js" />
@@ -96,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/Utils/Constants.js" />
         <option value="$PROJECT_DIR$/src/Utils/ActionTypes.js" />
         <option value="$PROJECT_DIR$/src/Actions/FetchCoinData.js" />
+        <option value="$PROJECT_DIR$/src/Reducers/CryptoReducer.js" />
       </list>
     </option>
   </component>
@@ -147,7 +137,7 @@
               <item name="crypto-currency-native-redux" type="b2602c69:ProjectViewProjectNode" />
               <item name="crypto-currency-native-redux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,12 +177,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541769750327</updated>
       <workItem from="1541769752528" duration="2203000" />
-      <workItem from="1541782362648" duration="6018000" />
+      <workItem from="1541782362648" duration="6562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8221000" />
+    <option name="totallyTimeSpent" value="8765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-960" y="-18" width="960" height="1057" extended-state="0" />
@@ -244,13 +234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reducers/CryptoReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -318,6 +301,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Actions/FetchCoinData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/ActionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -325,10 +318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Actions/FetchCoinData.js">
+    <entry file="file://$PROJECT_DIR$/src/Reducers/CryptoReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        <state relative-caret-position="736">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
