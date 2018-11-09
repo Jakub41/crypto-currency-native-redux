@@ -5,6 +5,6 @@
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-2.5.1" project-jdk-type="RUBY_SDK" />
   <component name="UnicodeBrowser">
-    <option name="fontName" />
+    <option name="fontName" value="Fira Code" />
   </component>
 </project>
