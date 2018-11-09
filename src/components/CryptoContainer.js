@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import Spinner from 'react-native-loading-spinner-overlay';
+import S from '../Styles/CryptoContainerStyles';
 
 import FetchCoinData from './../Actions/FetchCoinData';
 import CoinCard from './CoinCard';
@@ -30,7 +31,7 @@ class CryptoContainer extends Component {
     render() {
 
         const { crypto } = this.props;
-        const { contentContainer } = styles;
+        const { contentContainer } = S;
 
         if (crypto.isFetching) {
             return (
@@ -54,13 +55,6 @@ class CryptoContainer extends Component {
 
     }
 }
-
-const styles = {
-    contentContainer: {
-        paddingBottom: 100,
-        paddingTop: 55
-    }
-};
 
 function mapStateToProps(state) {
     return {
